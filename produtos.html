@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos - Full Stack Eletro</title>
+        <link rel="stylesheet" href="estilo.css">
+        
+    </head>
+    <body>
+         <!-- Início do Menu -->
+         <nav class="menu">
+            <a href="./index.html"><img class="logo" src="./assets/lgfull.png" alt="Full Stack Eletro" width="100px"></a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)" href="./produtos.html">Produtos</a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)" href="./loja.html">Nossas lojas</a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)" href="./contato.html">Fale Conosco</a>
+
+        </nav>
+        <!-- Fim do Menu -->
+        <header class="header">
+        <h2>Produtos</h2>
+        </header>
+ 
+        <section class="categorias">            
+                    <h3 class="categoria">Categorias</h3>                  
+                    <ul class="categoria">
+                        <li onclick="exibir_todos()" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Todos Produtos (12)</li>
+                        <li onclick="exibir_categoria('geladeira')" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Geladeiras (3)</li>
+                        <li onclick="exibir_categoria('fogao')" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Fogões (2)</li>
+                        <li onclick="exibir_categoria('microondas')" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Microondas (3)</li>
+                        <li onclick="exibir_categoria('lava_roupas')" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Lavadouras de roupa  (2)</li>
+                        <li onclick="exibir_categoria('lava_loucas')" onmouseover="upScaleMenu(this)" onmouseout="downScaleMenu(this)">Lava-louças (2)</li>
+                    </ul>
+                </td>
+        </section>  
+        <section class="produtos">
+               <div class="box_produto" id="geladeira" onmouseover="upScale(this)" onmouseout="downScale(this)">                
+                    <img src="./assets/geladeiraprata.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Geladeira Frost Free Brastemp Side Inverse 540L</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 6.389,00</strike></p>
+                   <p class="preco">R$ 5.019,00</p>                 
+                </div>
+
+                <div class="box_produto" id="geladeira" onmouseover="upScale(this)" onmouseout="downScale(this)">  
+                    <img src="./assets/geladeira.jpg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Geladeira Frost Free Brastemp Branca 375 Litros</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 2.068,60</strike></p>
+                    <p class="preco">R$ 1.910,90</p>
+                   
+                </div>
+                <div class="box_produto" id="geladeira" onmouseover="upScale(this)" onmouseout="downScale(this)">  
+                    <img src="./assets/geladeiraprata2.jpg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Geladeira Frost Free Consul Prata 340 Litros</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 2.199,00</strike></p>
+                    <p class="preco">R$ 2.069,00</p>
+                   
+                </div>
+                <div class="box_produto" id="fogao" onmouseover="upScale(this)" onmouseout="downScale(this)">                 
+                    <img src="./assets/FogãoPequeno.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Fogão 4 Bocas Consul Inox com Mesa de Vidro</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 1.299,00</strike></p>
+                    <p class="preco">R$ 1.129,00</p>
+                   
+                </div>
+          
+                <div class="box_produto" id="fogao" onmouseover="upScale(this)" onmouseout="downScale(this)">  
+                    <img src="./assets/fogão.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Fogão de Piso 4 Bocas Atlas Monaco com Acendimento Automático</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 600,00</strike></p>
+                    <p class="preco">R$ 519,70</p>
+                   
+                </div>
+                <div class="box_produto" id="microondas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/micro.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao" id="microondas">Micro-ondas Consul 32 Litros inox <br>220v</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 580,00</strike></p>
+                    <p class="preco">R$ 409,88
+                   
+                </div>
+                <div class="box_produto" id="microondas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/micro2.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Microondas 25L Espelhado Philco <br>220V</p>
+                    <hr>
+                    <p class="descricao"><strike>R$508,70</strike></p>
+                    <p class="preco">R$ 464,53</p>
+                   
+                </div>
+                <div class="box_produto" id="microondas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/microondas.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Forno de Microondas Eletrolux 20L <br>Branco</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 1.299,00</strike></p>
+                    <p class="preco">R$ 1.129,00</p>               
+                </div>
+            
+                <div class="box_produto" id="lava_loucas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/lavalouça1.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Lava-louça Eletrolux Inox com 10 serviços, 06 Programas de Lavagem e Painel Blue Touch</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 3.599,00</strike></p>
+                    <p class="preco">$ 2.799,90</p>
+                   
+                </div>
+                <div class="box_produto" id="lava_loucas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/lavalouça2.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Lava Louça Compacta, 8 Serviços Branca 127V <br>Brastemp</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 1.970,50</strike></p>
+                    <p class="preco">R$ 1.730,61</p>
+                   
+                </div>
+                <div class="box_produto" id="lava_roupas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/lavadora.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Lavadoura de Roupas Brastemp 11KG com Turbo Performance Branca</p>
+                    <hr>
+                    <p class="descricao"><strike>R$ 1.699,00</strike></p>
+                    <p class="preco">R$ 1.214,10</p>
+                   
+                </div>
+                <div class="box_produto" id="lava_roupas" onmouseover="upScale(this)" onmouseout="downScale(this)"> 
+                    <img src="./assets/secadora.jpeg" class="itens" onclick="zoom(this)">
+                    <br>
+                    <p class="descricao">Lavadoura de Roupas <br>Philco Inverter <br>12KG</p>
+                    <hr>
+                    <p class="descricao"></p><strike>R$ 2.399,00</strike></p>
+                    <p class="preco">R$ 2.179,90</p>                   
+                </div>          
+        </section>
+
+        <footer id="rodape">
+            <p id="pagamentos">Formas de pagamento:</p>
+            <img src="./assets/formas_pagto.png" alt="Formas de pagamento" width="25%">
+            <p id="copy">&copy; Recode Pro</p>
+        </footer>
+        <script src="functions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

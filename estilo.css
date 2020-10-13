@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    src: url('./assets/ShadowsIntoLight-Regular.ttf');
+    font-family: ShadowsIntoLight-Regular;
+}
+.fonte {
+   font-family: ShadowsIntoLight-Regular;
+   font-size: 95px;
+   text-align: center;
+   margin-bottom: 45px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;     
+}
+.logo {
+    width: 220px;
+    height: 32px;
+    vertical-align: middle;
+    margin: 15px;
+
+}
+.header {    
+    margin: 0 0 0 45px;
+    padding: 10px;      
+}
+.main {
+    padding: 10px;
+    margin:10px;
+}
+#pagamentos {
+    color: red;  
+    font-weight: bold; 
+    padding: 18px 0 0 0;
+    font-size: 15px;
+    height: 25px;
+}
+#copy {
+    font-size: 13px;
+    padding: 0 0 15px 0;
+}
+.menu {
+    background-color: #FF0000;
+    margin: 5px;     
+    border-radius: 10px;
+   
+     
+}
+.menu a {
+   color: #fff;
+   text-decoration: none;
+   padding: 0px 120px 0px 60px;
+   vertical-align: middle;
+   font-size: 16px;  
+}
+.categorias {
+    vertical-align: top;   
+    height: 1083px;
+    display: inline-block;   
+    border-radius: 10px;  
+    margin: 0 0 0 5px; 
+    background-color: white;
+    width: 21%;
+}
+.categoria {
+    margin: 20px 25px 0 50px;       
+}
+.produtos {
+    display: inline-block;
+    width: 76%;
+    height: 1064px;  
+    border-radius: 10px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 10px;
+}
+.box_produto {
+    display: inline-block;
+    width: 20%;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+}
+img.itens {
+    cursor: pointer;
+    width: 120px;
+}
+#rodape {
+    width: 99%;
+    text-align: center;  
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 0  20px 7px;      
+}
+.preco {
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+}
+.descricao {
+    font-size: 18px;
+}
+.lojas {
+    display: inline-block;
+    background-color: white;
+    width: 99%;
+    height: 340px;
+    border-radius: 10px;
+    margin: 10px 0  2px 7px;
+}
+.end {
+    display: inline-block;
+    width: 33%; 
+    text-align: center;
+    padding: 95px 0 80px 0;
+    vertical-align: top;
+    font-size: 20px;
+}
+.contatos {  
+    background-color: white;
+    width: 99%;
+    height: 140px;
+    border-radius: 10px;
+    margin: 0 0 0 5px;
+}
+.email {
+    display: inline-block;  
+    width: 50%;       
+    margin: 15px 0  15px 0;
+}
+.tel {
+    display: inline-block; 
+    width: 49%;   
+    margin: 15px 0  15px 0;  
+}
+.logocontato {
+    width: 62px;
+    height: 62px;
+    text-align: center;      
+}
+.logocontato2 {
+    width: 70px;
+    height: 70px;
+    text-align: center;      
+}
+.contp {
+    text-align:center;
+    font-size: 28px;
+    vertical-align: top;  
+}
+.form {
+    width: 96%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 5px 0 5px;
+    padding: 20px;
+}
+input {
+    width: 100px;
+    height: 40px;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    border-color: rgba(1,1,1, 0.1);
+    font-weight: bold;
+}
+textarea {
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    width: 615px;
+    height: 150px;
+    border-color: rgba(1,1,1, 0.1);
+}
+.nome {
+    width: 650px;
+    height: 35px;
+}
+.text {
+    padding: 18px;
+}
+.efeito {
+    text-align: center;
+    color: #000;
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: Rubik;
+    max-width: 42.5rem;
+    margin: 0.9375rem auto;
+    min-height: 11.25rem;
+  }
+  
+  .efeito::after {
+    content: "|";
+    opacity: 1;
+    margin-left: 10px;
+    display: inline-block;
+    -webkit-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  }
+  .efeito2 {
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1.2;
+    font-family: Rubik;
+    max-width: 42.5rem;
+    margin: 0.9375rem auto;   
+  }
+  
+  .efeito2::after {
+    content: "|";
+    opacity: 1;
+    margin-left: 10px;
+    display: inline-block;
+    -webkit-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  
+ 

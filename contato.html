@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato - Full Stack Eletro</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+         <!-- Início do Menu -->
+         <nav class="menu">
+            <a href="./index.html"><img class="logo" src="./assets/lgfull.png" alt="Full Stack Eletro" width="100px"></a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)" href="./produtos.html">Produtos</a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)"href="./loja.html">Nossas lojas</a>
+            <a class="link" onmouseover="onMenu(this)" onmouseout="outMenu(this)"href="./contato.html">Fale Conosco</a>
+
+        </nav>
+        <!-- Fim do Menu -->
+        <header>
+            <h2 class="header">Fale Conosco</h2>
+        </header>
+    
+        <section class="contatos">
+            <div class="email">
+                <p class="contp"><img class="logocontato" src="./assets/lgmail.png">
+                contato@fullstackeletro.com</p>
+            </div>
+            <div class="tel">
+                <p class="contp"><img class="logocontato2" src="./assets/WhatsApp.png">
+                (11) 9999-9999</p>                
+            </div>
+        </section>             
+     
+        <section class="form">            
+        <form action="">
+            <h1 class="efeito2">Envie suas dúvidas, sugestões ou reclamações:</h1><br>      
+            <p>Nome:</p>
+            <br>
+            <input class="nome" type="text">
+            <br>
+            <br>
+            <p>E-mail:</p>
+            <br>
+            <input class="nome" type="e-mail">
+            <br>
+            <br>
+            <p>Mensagem:</p>
+            <br>
+            <textarea class="text" placeholder="Digite sua mensagem aqui... Vamos responder o mais breve possível!"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="ENVIAR">
+        </section>                
+       
+        <footer id="rodape">
+            <p id="pagamentos">Formas de pagamento:</p>
+            <img src="./assets/formas_pagto.png" alt="Formas de pagamento" width="25%">
+            <p id="copy">&copy; Recode Pro</p>
+        </footer> 
+        <script src="functions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
